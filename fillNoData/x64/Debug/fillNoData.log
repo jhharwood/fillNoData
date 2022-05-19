@@ -1,0 +1,3 @@
+﻿  fillNoData.cpp
+C:\Users\tags1\source\repos\fillNoData\fillNoData\fillNoData.cpp(52,59): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  fillNoData.vcxproj -> C:\Users\tags1\source\repos\fillNoData\x64\Debug\fillNoData.exe

@@ -1,0 +1,16 @@
+﻿  fillNoData.cpp
+C:\Users\tags1\source\repos\fillNoData\fillNoData\fillNoData.cpp(52,59): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+fillNoData.obj : error LNK2019: unresolved external symbol _GDALGetDataTypeName@4 referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol _GDALAllRegister@0 referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol _GDALOpen@8 referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol _GDALClose@4 referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: int __thiscall GDALDataset::GetRasterXSize(void)" (?GetRasterXSize@GDALDataset@@QAEHXZ) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: int __thiscall GDALDataset::GetRasterYSize(void)" (?GetRasterYSize@GDALDataset@@QAEHXZ) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: int __thiscall GDALDataset::GetRasterCount(void)" (?GetRasterCount@GDALDataset@@QAEHXZ) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: class GDALRasterBand * __thiscall GDALDataset::GetRasterBand(int)" (?GetRasterBand@GDALDataset@@QAEPAVGDALRasterBand@@H@Z) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall GDALDataset::GetProjectionRef(void)const " (?GetProjectionRef@GDALDataset@@QBEPBDXZ) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: enum GDALDataType __thiscall GDALRasterBand::GetRasterDataType(void)" (?GetRasterDataType@GDALRasterBand@@QAE?AW4GDALDataType@@XZ) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol "public: void __thiscall GDALRasterBand::GetBlockSize(int *,int *)" (?GetBlockSize@GDALRasterBand@@QAEXPAH0@Z) referenced in function _main
+fillNoData.obj : error LNK2019: unresolved external symbol _GDALFillNodata@36 referenced in function _main
+C:\Users\tags1\source\repos\fillNoData\Dependencies\gdal343\gdal_i_d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\tags1\source\repos\fillNoData\Debug\fillNoData.exe : fatal error LNK1120: 12 unresolved externals
